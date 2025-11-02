@@ -331,6 +331,191 @@ def plot_confusion_matrices(results: List[Dict]) -> str:
     return str(output_path)
 
 
+def plot_tnr_fnr_comparison(results: List[Dict]) -> str:
+    """
+    Plot TNR and FNR comparison for all detectors.
+
+    Args:
+        results: List of result dictionaries
+
+    Returns:
+        Path to saved plot
+    """
+    VISUALIZATIONS_DIR.mkdir(parents=True, exist_ok=True)
+
+    detector_names = [r['detector_name'] for r in results]
+
+    # Calculate TNR and FNR for each detector
+    tnr_values = []
+    fnr_values = []
+
+    for r in results:
+        metrics = r['metrics']
+        tp = metrics['TP']
+        fp = metrics['FP']
+        tn = metrics['TN']
+        fn = metrics['FN']
+
+        tnr = tn / (tn + fp) if (tn + fp) > 0 else 0  # True Negative Rate (Specificity)
+        fnr = fn / (fn + tp) if (fn + tp) > 0 else 0  # False Negative Rate
+
+        tnr_values.append(tnr)
+        fnr_values.append(fnr)
+
+    # Create figure
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+
+    x = np.arange(len(detector_names))
+    width = 0.6
+
+    # Assign colors: group Claude models together
+    colors = []
+    for name in detector_names:
+        if 'presidio_v2' in name:
+            colors.append('#1f77b4')  # Blue for Presidio V2
+        elif 'presidio' in name:
+            colors.append('#ff7f0e')  # Orange for Presidio V1
+        elif 'haiku' in name or 'sonnet' in name:
+            colors.append('#2ca02c')  # Green for all Claude models
+        else:
+            colors.append('#d62728')  # Red for others
+
+    # Plot 1: TNR (Higher is Better)
+    bars1 = ax1.bar(x, tnr_values, width, color=colors)
+    for i, bar in enumerate(bars1):
+        height = bar.get_height()
+        ax1.text(bar.get_x() + bar.get_width()/2., height,
+                f'{height:.3f}', ha='center', va='bottom', fontsize=9)
+
+    ax1.set_xlabel('Detector', fontsize=12)
+    ax1.set_ylabel('True Negative Rate (TNR)', fontsize=12)
+    ax1.set_title('True Negative Rate - Specificity (Higher is Better)', fontsize=13, fontweight='bold')
+    ax1.set_xticks(x)
+    ax1.set_xticklabels(detector_names, rotation=45, ha='right')
+    # Color presidio_v2_strict label text
+    for i, label in enumerate(ax1.get_xticklabels()):
+        if detector_names[i] == 'presidio_v2_strict':
+            label.set_color('red')
+            label.set_weight('bold')
+    ax1.set_ylim(0, 1.0)
+    ax1.grid(axis='y', alpha=0.3)
+
+    # Plot 2: FNR (Lower is Better)
+    bars2 = ax2.bar(x, fnr_values, width, color=colors)
+    for i, bar in enumerate(bars2):
+        height = bar.get_height()
+        ax2.text(bar.get_x() + bar.get_width()/2., height,
+                f'{height:.3f}', ha='center', va='bottom', fontsize=9)
+
+    ax2.set_xlabel('Detector', fontsize=12)
+    ax2.set_ylabel('False Negative Rate (FNR)', fontsize=12)
+    ax2.set_title('False Negative Rate (Lower is Better)', fontsize=13, fontweight='bold')
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(detector_names, rotation=45, ha='right')
+    # Color presidio_v2_strict label text
+    for i, label in enumerate(ax2.get_xticklabels()):
+        if detector_names[i] == 'presidio_v2_strict':
+            label.set_color('red')
+            label.set_weight('bold')
+    ax2.set_ylim(0, 1.0)
+    ax2.grid(axis='y', alpha=0.3)
+
+    plt.tight_layout()
+
+    output_path = VISUALIZATIONS_DIR / "tnr_fnr_comparison.png"
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+
+    print(f"TNR/FNR comparison plot saved to: {output_path}")
+    return str(output_path)
+
+
+def plot_presidio_v2_threshold_analysis(v2_results: List[Dict], labeled_emails) -> str:
+    """
+    Plot TNR and FNR for various presidio v2 thresholds.
+
+    Args:
+        v2_results: List of presidio v2 result dictionaries
+        labeled_emails: List of labeled email objects for re-evaluation
+
+    Returns:
+        Path to saved plot
+    """
+    from src.detectors.presidio_detector import PresidioDetector
+    from src.evaluation.metrics import calculate_confusion_matrix
+
+    VISUALIZATIONS_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Test thresholds from 0.0 to 1.0 at 0.1 increments
+    thresholds = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+    tnr_values = []
+    fnr_values = []
+
+    print(f"  Analyzing presidio_v2 across {len(thresholds)} thresholds...")
+
+    for threshold in thresholds:
+        # Create a temporary detector with this threshold
+        detector = PresidioDetector(f"presidio_v2_temp_{threshold}", threshold)
+
+        # Run detection on all emails
+        predictions = []
+        ground_truths = []
+
+        for email in labeled_emails:
+            result = detector.detect(email)
+            predictions.append(result.has_pii)
+            ground_truths.append(email.has_pii())
+
+        # Calculate metrics
+        cm = calculate_confusion_matrix(predictions, ground_truths)
+
+        tp = cm.TP
+        fp = cm.FP
+        tn = cm.TN
+        fn = cm.FN
+
+        tnr = tn / (tn + fp) if (tn + fp) > 0 else 0
+        fnr = fn / (fn + tp) if (fn + tp) > 0 else 0
+
+        tnr_values.append(tnr)
+        fnr_values.append(fnr)
+
+        pii_count = sum(predictions)
+        print(f"    Threshold {threshold:.1f}: TP={tp}, FP={fp}, TN={tn}, FN={fn}, PII detected={pii_count}, TNR={tnr:.3f}, FNR={fnr:.3f}")
+
+    # Create line plot
+    plt.figure(figsize=(12, 7))
+
+    plt.plot(thresholds, tnr_values, marker='o', linewidth=2, markersize=8,
+             color='#2E86AB', label='TNR (True Negative Rate) - Higher is Better', zorder=3)
+    plt.plot(thresholds, fnr_values, marker='s', linewidth=2, markersize=8,
+             color='#A23B72', label='FNR (False Negative Rate) - Lower is Better', zorder=3)
+
+    # Add vertical dotted lines for the 3 variants
+    plt.axvline(x=0.3, color='gray', linestyle=':', linewidth=1.5, alpha=0.5,
+                label='Strict (0.3)', zorder=1)
+    plt.axvline(x=0.5, color='gray', linestyle=':', linewidth=1.5, alpha=0.5,
+                label='Moderate (0.5)', zorder=1)
+    plt.axvline(x=0.8, color='gray', linestyle=':', linewidth=1.5, alpha=0.5,
+                label='Lax (0.8)', zorder=1)
+
+    plt.xlabel('Confidence Threshold', fontsize=13)
+    plt.ylabel('Rate', fontsize=13)
+    plt.title('Presidio V2 Threshold Sensitivity Analysis', fontsize=14, fontweight='bold')
+    plt.xticks(thresholds)
+    plt.ylim(0, 1.0)
+    plt.grid(alpha=0.3, zorder=0)
+    plt.legend(loc='best', fontsize=11)
+    plt.tight_layout()
+
+    output_path = VISUALIZATIONS_DIR / "presidio_v2_threshold_sensitivity.png"
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+
+    print(f"Presidio V2 threshold sensitivity plot saved to: {output_path}")
+    return str(output_path)
+
+
 def generate_all_visualizations(results: List[Dict]) -> Dict[str, str]:
     """
     Generate all visualizations and comparison CSV.
