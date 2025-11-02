@@ -1,0 +1,2533 @@
+{
+  "detector_name": "presidio_moderate",
+  "total_emails": 250,
+  "predictions": [
+    {
+      "email_id": 1,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.317117691040039,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 2,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 28.33414077758789,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 3,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.371000289916992,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 4,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.62486457824707,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 5,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.8977394104003906,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 6,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.4630298614501953,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 7,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 8.057117462158203,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 8,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.936124801635742,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 9,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 14.330863952636719,
+      "cost_usd": 0.0,
+      "confidence": 0.95,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 10,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 106.2781810760498,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 11,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 9.959936141967773,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 12,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 18.49985122680664,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 13,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 148.9560604095459,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 14,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 134.33313369750977,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 15,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.25212287902832,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 16,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.760171890258789,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 17,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 27.21405029296875,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 18,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.265163421630859,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 19,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 47.03378677368164,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 20,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 19.869089126586914,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 21,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.672216415405273,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 22,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.1740665435791016,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 23,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.548954010009766,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 24,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 64.45598602294922,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 25,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 63.27700614929199,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 26,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 233.66308212280273,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 27,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 215.48795700073242,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 28,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 144.9117660522461,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 29,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 16.24894142150879,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 30,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.0651092529296875,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 31,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 18.64004135131836,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 32,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 17.501115798950195,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 33,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 52.61826515197754,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 34,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.529642105102539,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 35,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 31.213998794555664,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 36,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 16.85500144958496,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 37,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.9789676666259766,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 38,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.78508186340332,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 39,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 11.272907257080078,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 40,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.941080093383789,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 41,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 60.05692481994629,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 42,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 123.32487106323242,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 43,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 20.493030548095703,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 44,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.893209457397461,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 45,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.364128112792969,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 46,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.24594497680664,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 47,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 17.604827880859375,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 48,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 27.68087387084961,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 49,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 11.712074279785156,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 50,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 1.878976821899414,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 51,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 43.34592819213867,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 52,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 115.98706245422363,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 53,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 13.134002685546875,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 54,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 15.747785568237305,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 55,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 4.485130310058594,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 56,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 13.309001922607422,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 57,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 43.023109436035156,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 58,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 117.88082122802734,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 59,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 25.326013565063477,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 60,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 54.151058197021484,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 61,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 34.58404541015625,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 62,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 188.4777545928955,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 63,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.9680004119873047,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 64,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 251.10507011413574,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 65,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 14.711141586303711,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 66,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.8221607208251953,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 67,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 76.36404037475586,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 68,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 14.096260070800781,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 69,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.510278701782227,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 70,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.491899490356445,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 71,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.51295280456543,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 72,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 48.89178276062012,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 73,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 158.88690948486328,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 74,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.549285888671875,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 75,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.607791900634766,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 76,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.242918014526367,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 77,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.312183380126953,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 78,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.458189010620117,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 79,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.314111709594727,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 80,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.0760765075683594,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 81,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 20.78723907470703,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 82,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 27.3740291595459,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 83,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 28.891801834106445,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 84,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.58073616027832,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 85,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.717039108276367,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 86,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.784822463989258,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 87,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 14.627933502197266,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 88,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.493070602416992,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 89,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 23.539304733276367,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 90,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.842996597290039,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 91,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 1.9047260284423828,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 92,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.302854537963867,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 93,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.284786224365234,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 94,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 13.546943664550781,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 95,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 33.40411186218262,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 96,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 28.126955032348633,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 97,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 33.19501876831055,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 98,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 27.873992919921875,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 99,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 26.61895751953125,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 100,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 11.215925216674805,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 101,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 4.500150680541992,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 102,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 60.83512306213379,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 103,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.956245422363281,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 104,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.361961364746094,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 105,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.385782241821289,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 106,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 31.371116638183594,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 107,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.9580078125,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 108,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.681732177734375,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 109,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 42.07897186279297,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 110,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.4779052734375,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 111,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 22.34816551208496,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 112,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 31.41021728515625,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 113,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 19.21987533569336,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 114,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.6690235137939453,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 115,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.610797882080078,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 116,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 5.188941955566406,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 117,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 151.16381645202637,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 118,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.6470890045166016,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 119,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 14.561891555786133,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 120,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.142999649047852,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 121,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.542133331298828,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 122,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.411935806274414,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 123,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.481149673461914,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 124,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 24.119138717651367,
+      "cost_usd": 0.0,
+      "confidence": 0.95,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 125,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.1851062774658203,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 126,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 22.274017333984375,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 127,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 12.858152389526367,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 128,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.954172134399414,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 129,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 15.851736068725586,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 130,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.6891231536865234,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 131,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.880781173706055,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 132,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.3260116577148438,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 133,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 41.05091094970703,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 134,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 14.334917068481445,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 135,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.750822067260742,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 136,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 28.496980667114258,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 137,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 52.610158920288086,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 138,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.948947906494141,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 139,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 27.616024017333984,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 140,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.8460025787353516,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 141,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.003929138183594,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 142,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.8879642486572266,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 143,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.2161006927490234,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 144,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 1.6489028930664062,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 145,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 22.742033004760742,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 146,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 23.980140686035156,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 147,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.6432743072509766,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 148,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.747961044311523,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 149,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.768869400024414,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 150,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.832931518554688,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 151,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 18.156051635742188,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 152,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.3050308227539062,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 153,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 1.9011497497558594,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 154,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.329080581665039,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 155,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 46.454668045043945,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 156,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 12.87984848022461,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 157,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 215.2261734008789,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 158,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.80997085571289,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 159,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 27.619123458862305,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 160,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.2510757446289062,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 161,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 1.6360282897949219,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 162,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.510900497436523,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 163,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 28.01203727722168,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 164,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 19.182205200195312,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 165,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 15.540122985839844,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 166,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 12.99285888671875,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 167,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 1.756906509399414,
+      "cost_usd": 0.0,
+      "confidence": 0.6,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 168,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 50.8120059967041,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 169,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.3588409423828125,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 170,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.939981460571289,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 171,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.568763732910156,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 172,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.715991973876953,
+      "cost_usd": 0.0,
+      "confidence": 0.6,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 173,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 22.166967391967773,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 174,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 4.423856735229492,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 175,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 11.3372802734375,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 176,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.249998092651367,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 177,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 30.11798858642578,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 178,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 111.04178428649902,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 179,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 13.452768325805664,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 180,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 3.298044204711914,
+      "cost_usd": 0.0,
+      "confidence": 0.6,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 181,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.130788803100586,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 182,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.159875869750977,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 183,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.480953216552734,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 184,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 49.710750579833984,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 185,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 45.47381401062012,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 186,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.126092910766602,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 187,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 31.753063201904297,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 188,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.601955413818359,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 189,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.155107498168945,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 190,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 35.15887260437012,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 191,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 50.585031509399414,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 192,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 14.542102813720703,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 193,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.026050567626953,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 194,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.762836456298828,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 195,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 5.60307502746582,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 196,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.0639896392822266,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 197,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 11.295795440673828,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 198,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.126932144165039,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 199,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.663135528564453,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 200,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 11.682987213134766,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 201,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 11.46078109741211,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 202,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 10.948896408081055,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 203,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 2.2330284118652344,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 204,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.5507678985595703,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 205,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.827852249145508,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 206,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 21.165132522583008,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 207,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.5528411865234375,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 208,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 7.130861282348633,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 209,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.68079948425293,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 210,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.825063705444336,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 211,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.299163818359375,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 212,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 19.114017486572266,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 213,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 10.136127471923828,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 214,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 3.9191246032714844,
+      "cost_usd": 0.0,
+      "confidence": 0.5,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 215,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 10.365009307861328,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 216,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.926992416381836,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 217,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.1436214447021484,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 218,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 10.117053985595703,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 219,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.939939498901367,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 220,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 5.995988845825195,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 221,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.330987930297852,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 222,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.0469894409179688,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 223,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.212017059326172,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 224,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 17.82989501953125,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 225,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 10.039091110229492,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 226,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.604961395263672,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 227,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 15.774965286254883,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 228,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 51.53799057006836,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 229,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.511117935180664,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 230,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 9.666919708251953,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 231,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.033969879150391,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 232,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 22.057771682739258,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 233,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.0422210693359375,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 234,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.55875015258789,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 235,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 3.8259029388427734,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 236,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 44.8298454284668,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 237,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.668951034545898,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 238,
+      "prediction": false,
+      "ground_truth": false,
+      "time_ms": 2.6717185974121094,
+      "cost_usd": 0.0,
+      "confidence": 0.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 239,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 10.984182357788086,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 240,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 5.639314651489258,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 241,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 3.025054931640625,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 242,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 82.9918384552002,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 243,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 6.046295166015625,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 244,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 4.794120788574219,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 245,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 8.961915969848633,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 246,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 21.87323570251465,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 247,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 9.207010269165039,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 248,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 33.15591812133789,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 249,
+      "prediction": true,
+      "ground_truth": false,
+      "time_ms": 32.26804733276367,
+      "cost_usd": 0.0,
+      "confidence": 1.0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    {
+      "email_id": 250,
+      "prediction": true,
+      "ground_truth": true,
+      "time_ms": 4.223108291625977,
+      "cost_usd": 0.0,
+      "confidence": 0.85,
+      "input_tokens": null,
+      "output_tokens": null
+    }
+  ],
+  "metrics": {
+    "TP": 23,
+    "FP": 201,
+    "TN": 26,
+    "FN": 0,
+    "precision": 0.10267857142857142,
+    "recall": 1.0,
+    "f1": 0.1862348178137652,
+    "accuracy": 0.196
+  },
+  "benchmarks": {
+    "total_time_seconds": 5.900503635406494,
+    "avg_time_per_email_ms": 23.602014541625977,
+    "median_time_per_email_ms": 9.34755802154541,
+    "min_time_ms": 1.6360282897949219,
+    "max_time_ms": 251.10507011413574,
+    "total_cost_usd": 0.0,
+    "avg_cost_per_email_usd": 0.0,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "avg_input_tokens": 0,
+    "avg_output_tokens": 0,
+    "projected_time_50k_minutes": 19.66834545135498,
+    "projected_cost_50k_usd": 0.0
+  },
+  "false_positives_file": "/Users/jeqcho/asymmetric-work-test/results/false_positives/presidio_moderate_fp.csv",
+  "false_negatives_file": "/Users/jeqcho/asymmetric-work-test/results/false_positives/presidio_moderate_fn.csv"
+}

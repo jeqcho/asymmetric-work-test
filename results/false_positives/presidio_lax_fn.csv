@@ -1,0 +1,12 @@
+email_id,detector,ground_truth,prediction,subject,pii_types,message_body_preview,confidence
+180,presidio_lax,YES,NO,nan,"username, password","address:    http://ectpdx-sunone.ect.enron.com/~ctatham/navsetup/index.htm
+
+
+id:   pallen
+password:  westgasx",0.0
+214,presidio_lax,YES,NO,nan,"username, password","http://ectpdx-sunone/~ctatham/navsetup/index.htm
+
+id   pallen
+pw  westgasx
+
+highly sensitive do not distribute",0.0
