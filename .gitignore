@@ -209,3 +209,4 @@ __marimo__/
 
 # protect the work task
 task/
+.DS_store
