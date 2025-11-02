@@ -1,0 +1,161 @@
+Analyzing false positives...
+
+====================================================================================================
+FALSE POSITIVE ANALYSIS SUMMARY - PRESIDIO STRICT
+====================================================================================================
+
+Total False Positives Analyzed: 201
+
+                                    Reason for False Positive  Count Percentage
+Business/Professional Names (PERSON entities in work context)    201     100.0%
+                Date/Time Information (scheduling/timestamps)    144      71.6%
+                                               URLs/Web Links     98      48.8%
+             Email Addresses (business/organizational emails)     91      45.3%
+                Location/Address (business addresses, cities)     51      25.4%
+             Phone Numbers/Extensions (business contact info)      5       2.5%
+
+
+====================================================================================================
+EXAMPLES FROM EACH CATEGORY
+====================================================================================================
+
+Business/Professional Names (PERSON entities in work context) (201 occurrences):
+----------------------------------------------------------------------------------------------------
+
+  Example 1:
+  Email ID: 2
+  Detected: ['Phillip K Allen', 'John J Lavorato <John J Lavorato']
+  Context: "Re: From: Phillip K Allen To: John J Lavorato <John J Lavorato/ENRON@enronXgate@ENRON> Traveling to have a business meeting takes the fun out of the trip.  Especially if you have to prepare a presenta..."
+
+  Example 2:
+  Email ID: 4
+  Detected: ['Phillip K Allen', 'Randall L Gay', 'Randy']
+  Context: "From: Phillip K Allen To: Randall L Gay Randy,   Can you send me a schedule of the salary and level of everyone in the  scheduling group.  Plus your thoughts on any changes that need to be made.   (Pa..."
+
+  Example 3:
+  Email ID: 5
+  Detected: ['Phillip K Allen', 'Greg Piper']
+  Context: "Re: Hello From: Phillip K Allen To: Greg Piper Let's shoot for Tuesday at 11:45...."
+
+
+Date/Time Information (scheduling/timestamps) (144 occurrences):
+----------------------------------------------------------------------------------------------------
+
+  Example 1:
+  Email ID: 5
+  Detected: ['Tuesday', '11:45']
+  Context: "Re: Hello From: Phillip K Allen To: Greg Piper Let's shoot for Tuesday at 11:45...."
+
+  Example 2:
+  Email ID: 6
+  Detected: ['next Tuesday', 'Thursday']
+  Context: "Re: Hello From: Phillip K Allen To: Greg Piper Greg,   How about either next Tuesday or Thursday?  Phillip..."
+
+  Example 3:
+  Email ID: 8
+  Detected: ['any morning']
+  Context: "Re: PRC review - phone calls From: Phillip K Allen To: Joyce Teixeira any morning between 10 and 11:30..."
+
+
+URLs/Web Links (98 occurrences):
+----------------------------------------------------------------------------------------------------
+
+  Example 1:
+  Email ID: 12
+  Detected: ['hotmail.com']
+  Context: "From: Phillip K Allen To: stagecoachmama@hotmail.com Lucy,   Here are the rentrolls:     Open them and save in the rentroll folder.  Follow these steps so you don't  misplace these files.   1.  Click ..."
+
+  Example 2:
+  Email ID: 19
+  Detected: ['hotmail.com', 'austin.rr.com', 'austin.rr.com']
+  Context: "Westgate From: Phillip K Allen To: pallen70@hotmail.com ---------------------- Forwarded by Phillip K Allen/HOU/ECT on 10/03/2000  04:30 PM ---------------------------   "George Richards" <cbpres@aust..."
+
+  Example 3:
+  Email ID: 21
+  Detected: ['yahoo.com']
+  Context: "From: Phillip K Allen To: bs_stone@yahoo.com Brenda,  Please use the second check as the October payment.  If you have already  tossed it, let me know so I can mail you another.  Phillip..."
+
+
+Email Addresses (business/organizational emails) (91 occurrences):
+----------------------------------------------------------------------------------------------------
+
+  Example 1:
+  Email ID: 12
+  Detected: ['stagecoachmama@hotmail.com']
+  Context: "From: Phillip K Allen To: stagecoachmama@hotmail.com Lucy,   Here are the rentrolls:     Open them and save in the rentroll folder.  Follow these steps so you don't  misplace these files.   1.  Click ..."
+
+  Example 2:
+  Email ID: 19
+  Detected: ['pallen70@hotmail.com', 'cbpres@austin.rr.com', 'cbpres@austin.rr.com']
+  Context: "Westgate From: Phillip K Allen To: pallen70@hotmail.com ---------------------- Forwarded by Phillip K Allen/HOU/ECT on 10/03/2000  04:30 PM ---------------------------   "George Richards" <cbpres@aust..."
+
+  Example 3:
+  Email ID: 21
+  Detected: ['bs_stone@yahoo.com']
+  Context: "From: Phillip K Allen To: bs_stone@yahoo.com Brenda,  Please use the second check as the October payment.  If you have already  tossed it, let me know so I can mail you another.  Phillip..."
+
+
+Location/Address (business addresses, cities) (51 occurrences):
+----------------------------------------------------------------------------------------------------
+
+  Example 1:
+  Email ID: 2
+  Detected: ['Austin']
+  Context: "Re: From: Phillip K Allen To: John J Lavorato <John J Lavorato/ENRON@enronXgate@ENRON> Traveling to have a business meeting takes the fun out of the trip.  Especially if you have to prepare a presenta..."
+
+  Example 2:
+  Email ID: 8
+  Detected: ['PRC']
+  Context: "Re: PRC review - phone calls From: Phillip K Allen To: Joyce Teixeira any morning between 10 and 11:30..."
+
+  Example 3:
+  Email ID: 13
+  Detected: ['Canada']
+  Context: "Consolidated positions: Issues & To Do list From: Phillip K Allen To: Keith Holst ---------------------- Forwarded by Phillip K Allen/HOU/ECT on 10/09/2000  02:16 PM ---------------------------   Rich..."
+
+
+Phone Numbers/Extensions (business contact info) (5 occurrences):
+----------------------------------------------------------------------------------------------------
+
+  Example 1:
+  Email ID: 42
+  Detected: ['512-748-7495']
+  Context: "Westgate Proforma-Phillip Allen.xls From: Phillip K Allen To: pallen70@hotmail.com ---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/19/2000  04:35 PM ---------------------------   "Ge..."
+
+  Example 2:
+  Email ID: 52
+  Detected: ['512-748-7495']
+  Context: "Westgate Proforma-Phillip Allen.xls From: Phillip K Allen To: Keith Holst ---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/11/2000  04:57 PM ---------------------------   "George Rich..."
+
+  Example 3:
+  Email ID: 58
+  Detected: ['512-748-7495']
+  Context: "Westgate Proforma-Phillip Allen.xls From: Phillip K Allen To: pallen70@hotmail.com ---------------------- Forwarded by Phillip K Allen/HOU/ECT on 09/08/2000  12:28 PM ---------------------------   "Ge..."
+
+====================================================================================================
+ENTITY TYPE DISTRIBUTION ACROSS ALL FALSE POSITIVES
+====================================================================================================
+      Entity Type  Total Detections
+           PERSON              1732
+        DATE_TIME               738
+              URL               230
+    EMAIL_ADDRESS               165
+         LOCATION               152
+     PHONE_NUMBER                 7
+              NRP                 3
+US_DRIVER_LICENSE                 3
+
+====================================================================================================
+KEY INSIGHTS
+====================================================================================================
+
+The false positives occur primarily because:
+1. Work emails contain many business names that Presidio flags as PERSON entities
+2. Business email addresses and contact information are detected as PII
+3. Scheduling information (dates, times) triggers DATE_TIME entity detection
+4. Business locations and addresses are flagged as LOCATION entities
+
+These are not actually sensitive PII in a business context, but generic PII detectors
+flag them because they technically match the patterns for person names, contact info, etc.
+
+====================================================================================================
