@@ -1,0 +1,6 @@
+anthropic>=0.72.0
+pandas>=2.3.3
+presidio-analyzer>=2.2.360
+python-dotenv>=1.2.1
+tqdm>=4.66.0
+
