@@ -19,6 +19,17 @@ class DetectionResult:
     output_tokens: Optional[int] = None  # For API-based detectors
 
 
+@dataclass
+class PIIClassificationResult:
+    """Result of PII type classification for a single email."""
+    email_id: int
+    pii_types: List[str]  # Predicted PII types, e.g., ["email address", "phone number"]
+    time_ms: float = 0.0  # Time taken for detection (milliseconds)
+    cost_usd: float = 0.0  # Cost of detection (USD)
+    input_tokens: Optional[int] = None  # For API-based detectors
+    output_tokens: Optional[int] = None  # For API-based detectors
+
+
 class BaseDetector(ABC):
     """Abstract base class for all PII detectors."""
 

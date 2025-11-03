@@ -1,0 +1,2631 @@
+{
+  "detector_name": "sonnet_5shot_classification_with_presidio",
+  "total_emails": 250,
+  "exact_match_accuracy": 0.656,
+  "predictions": [
+    {
+      "email_id": 1,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2034.0080261230469,
+      "cost_usd": 0.009243,
+      "input_tokens": 3061,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 2,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2569.7407722473145,
+      "cost_usd": 0.009746999999999999,
+      "input_tokens": 3229,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 3,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2164.9169921875,
+      "cost_usd": 0.009224999999999999,
+      "input_tokens": 3055,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 4,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2577.8820514678955,
+      "cost_usd": 0.009335999999999999,
+      "input_tokens": 3092,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 5,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2147.2508907318115,
+      "cost_usd": 0.009222,
+      "input_tokens": 3054,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 6,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1979.3758392333984,
+      "cost_usd": 0.009234,
+      "input_tokens": 3058,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 7,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [
+        "email address"
+      ],
+      "time_ms": 2255.3439140319824,
+      "cost_usd": 0.010437,
+      "input_tokens": 3454,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 8,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2044.6579456329346,
+      "cost_usd": 0.00924,
+      "input_tokens": 3060,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 9,
+      "predicted_pii_types": [
+        "password",
+        "username"
+      ],
+      "ground_truth_pii_types": [
+        "username",
+        "password"
+      ],
+      "time_ms": 4530.375003814697,
+      "cost_usd": 0.010479,
+      "input_tokens": 3463,
+      "output_tokens": 6
+    },
+    {
+      "email_id": 10,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 2447.364091873169,
+      "cost_usd": 0.012165,
+      "input_tokens": 4030,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 11,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 2782.8609943389893,
+      "cost_usd": 0.010455,
+      "input_tokens": 3460,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 12,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2062.7450942993164,
+      "cost_usd": 0.009507,
+      "input_tokens": 3144,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 13,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2553.164005279541,
+      "cost_usd": 0.013464,
+      "input_tokens": 4463,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 14,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2182.7359199523926,
+      "cost_usd": 0.013449,
+      "input_tokens": 4463,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 15,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2583.4479331970215,
+      "cost_usd": 0.014496,
+      "input_tokens": 4812,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 16,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1952.3978233337402,
+      "cost_usd": 0.014447999999999999,
+      "input_tokens": 4796,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 17,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2806.151866912842,
+      "cost_usd": 0.015654,
+      "input_tokens": 5178,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 18,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 3777.1708965301514,
+      "cost_usd": 0.014570999999999999,
+      "input_tokens": 4837,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 19,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2346.0099697113037,
+      "cost_usd": 0.015896999999999998,
+      "input_tokens": 5274,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 20,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 2305.746078491211,
+      "cost_usd": 0.010977,
+      "input_tokens": 3634,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 21,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2242.258071899414,
+      "cost_usd": 0.014523,
+      "input_tokens": 4821,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 22,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2513.247013092041,
+      "cost_usd": 0.014499,
+      "input_tokens": 4813,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 23,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2062.253952026367,
+      "cost_usd": 0.01458,
+      "input_tokens": 4840,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 24,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2320.1208114624023,
+      "cost_usd": 0.016284,
+      "input_tokens": 5408,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 25,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2949.9781131744385,
+      "cost_usd": 0.016089000000000003,
+      "input_tokens": 5343,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 26,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2334.9509239196777,
+      "cost_usd": 0.020901000000000003,
+      "input_tokens": 6947,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 27,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2360.633134841919,
+      "cost_usd": 0.020916,
+      "input_tokens": 6947,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 28,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2181.2169551849365,
+      "cost_usd": 0.020115,
+      "input_tokens": 6685,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 29,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2146.2459564208984,
+      "cost_usd": 0.014739,
+      "input_tokens": 4893,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 30,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1960.0830078125,
+      "cost_usd": 0.014472,
+      "input_tokens": 4804,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 31,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2058.274984359741,
+      "cost_usd": 0.015125999999999999,
+      "input_tokens": 5022,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 32,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 8420.723915100098,
+      "cost_usd": 0.015129,
+      "input_tokens": 5023,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 33,
+      "predicted_pii_types": [
+        "full name",
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2375.3020763397217,
+      "cost_usd": 0.01608,
+      "input_tokens": 5320,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 34,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2163.780689239502,
+      "cost_usd": 0.014535000000000001,
+      "input_tokens": 4820,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 35,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2280.827760696411,
+      "cost_usd": 0.015678,
+      "input_tokens": 5206,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 36,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1909.869909286499,
+      "cost_usd": 0.015057,
+      "input_tokens": 4999,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 37,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2481.12416267395,
+      "cost_usd": 0.014493,
+      "input_tokens": 4806,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 38,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2583.406925201416,
+      "cost_usd": 0.014610000000000001,
+      "input_tokens": 4845,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 39,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2136.1279487609863,
+      "cost_usd": 0.014679,
+      "input_tokens": 4873,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 40,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2257.328748703003,
+      "cost_usd": 0.014577,
+      "input_tokens": 4839,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 41,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2134.920120239258,
+      "cost_usd": 0.016143,
+      "input_tokens": 5361,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 42,
+      "predicted_pii_types": [
+        "email address",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2352.6740074157715,
+      "cost_usd": 0.018029999999999997,
+      "input_tokens": 5970,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 43,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 3004.8880577087402,
+      "cost_usd": 0.014985,
+      "input_tokens": 4970,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 44,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2425.326108932495,
+      "cost_usd": 0.014451,
+      "input_tokens": 4797,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 45,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2054.3956756591797,
+      "cost_usd": 0.014664,
+      "input_tokens": 4868,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 46,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2101.7541885375977,
+      "cost_usd": 0.014580000000000001,
+      "input_tokens": 4835,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 47,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [
+        "address"
+      ],
+      "time_ms": 2067.5048828125,
+      "cost_usd": 0.011694,
+      "input_tokens": 3878,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 48,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2160.543918609619,
+      "cost_usd": 0.015078000000000001,
+      "input_tokens": 5001,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 49,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2095.7181453704834,
+      "cost_usd": 0.014799,
+      "input_tokens": 4913,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 50,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2297.668218612671,
+      "cost_usd": 0.014502000000000001,
+      "input_tokens": 4809,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 51,
+      "predicted_pii_types": [
+        "username",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "username"
+      ],
+      "time_ms": 2336.5769386291504,
+      "cost_usd": 0.012752999999999999,
+      "input_tokens": 4216,
+      "output_tokens": 7
+    },
+    {
+      "email_id": 52,
+      "predicted_pii_types": [
+        "email address",
+        "phone number",
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 3212.8958702087402,
+      "cost_usd": 0.018063,
+      "input_tokens": 5966,
+      "output_tokens": 11
+    },
+    {
+      "email_id": 53,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1852.6389598846436,
+      "cost_usd": 0.014780999999999999,
+      "input_tokens": 4907,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 54,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2485.377073287964,
+      "cost_usd": 0.014787,
+      "input_tokens": 4909,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 55,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2222.7783203125,
+      "cost_usd": 0.014535,
+      "input_tokens": 4825,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 56,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2658.3821773529053,
+      "cost_usd": 0.014825999999999999,
+      "input_tokens": 4922,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 57,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2168.6367988586426,
+      "cost_usd": 0.015864,
+      "input_tokens": 5263,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 58,
+      "predicted_pii_types": [
+        "email address",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2207.1571350097656,
+      "cost_usd": 0.018029999999999997,
+      "input_tokens": 5970,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 59,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 4306.428909301758,
+      "cost_usd": 0.014886,
+      "input_tokens": 4937,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 60,
+      "predicted_pii_types": [
+        "email address",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 2483.4561347961426,
+      "cost_usd": 0.012789,
+      "input_tokens": 4223,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 61,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2992.382049560547,
+      "cost_usd": 0.014985,
+      "input_tokens": 4975,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 62,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2124.97615814209,
+      "cost_usd": 0.022173000000000002,
+      "input_tokens": 7371,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 63,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2093.393087387085,
+      "cost_usd": 0.014463,
+      "input_tokens": 4801,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 64,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2782.665014266968,
+      "cost_usd": 0.021864,
+      "input_tokens": 7268,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 65,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2553.3177852630615,
+      "cost_usd": 0.014808,
+      "input_tokens": 4916,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 66,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 6238.95001411438,
+      "cost_usd": 0.014418,
+      "input_tokens": 4786,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 67,
+      "predicted_pii_types": [
+        "email address",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 2407.3002338409424,
+      "cost_usd": 0.013374,
+      "input_tokens": 4418,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 68,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1938.2219314575195,
+      "cost_usd": 0.014763,
+      "input_tokens": 4901,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 69,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2135.1208686828613,
+      "cost_usd": 0.014757,
+      "input_tokens": 4899,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 70,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2526.7670154571533,
+      "cost_usd": 0.014589,
+      "input_tokens": 4843,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 71,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2141.740083694458,
+      "cost_usd": 0.014508,
+      "input_tokens": 4816,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 72,
+      "predicted_pii_types": [
+        "email address",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 3167.0079231262207,
+      "cost_usd": 0.012885,
+      "input_tokens": 4255,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 73,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2278.0327796936035,
+      "cost_usd": 0.021447,
+      "input_tokens": 7129,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 74,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2025.7530212402344,
+      "cost_usd": 0.014601,
+      "input_tokens": 4847,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 75,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2263.0362510681152,
+      "cost_usd": 0.014759999999999999,
+      "input_tokens": 4900,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 76,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 4127.701997756958,
+      "cost_usd": 0.014591999999999999,
+      "input_tokens": 4844,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 77,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2992.2688007354736,
+      "cost_usd": 0.014472,
+      "input_tokens": 4804,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 78,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2033.2801342010498,
+      "cost_usd": 0.014508,
+      "input_tokens": 4816,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 79,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2240.6630516052246,
+      "cost_usd": 0.014525999999999999,
+      "input_tokens": 4822,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 80,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2671.4529991149902,
+      "cost_usd": 0.014472,
+      "input_tokens": 4799,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 81,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2047.7089881896973,
+      "cost_usd": 0.015417,
+      "input_tokens": 5119,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 82,
+      "predicted_pii_types": [
+        "username",
+        "password",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 2255.5949687957764,
+      "cost_usd": 0.012168,
+      "input_tokens": 4011,
+      "output_tokens": 9
+    },
+    {
+      "email_id": 83,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2596.3728427886963,
+      "cost_usd": 0.015302999999999999,
+      "input_tokens": 5081,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 84,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2277.0891189575195,
+      "cost_usd": 0.014547,
+      "input_tokens": 4829,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 85,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2080.73091506958,
+      "cost_usd": 0.01458,
+      "input_tokens": 4840,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 86,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1945.1231956481934,
+      "cost_usd": 0.014523,
+      "input_tokens": 4821,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 87,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2450.385808944702,
+      "cost_usd": 0.014792999999999999,
+      "input_tokens": 4911,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 88,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2250.3890991210938,
+      "cost_usd": 0.014463,
+      "input_tokens": 4801,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 89,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2159.6767902374268,
+      "cost_usd": 0.015024000000000001,
+      "input_tokens": 4983,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 90,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2111.3991737365723,
+      "cost_usd": 0.014541,
+      "input_tokens": 4827,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 91,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 3599.813938140869,
+      "cost_usd": 0.014447999999999999,
+      "input_tokens": 4796,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 92,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2041.0149097442627,
+      "cost_usd": 0.014669999999999999,
+      "input_tokens": 4870,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 93,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2456.8471908569336,
+      "cost_usd": 0.014496,
+      "input_tokens": 4812,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 94,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2022.1612453460693,
+      "cost_usd": 0.014706,
+      "input_tokens": 4882,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 95,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 4329.833030700684,
+      "cost_usd": 0.015590999999999999,
+      "input_tokens": 5177,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 96,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2290.051221847534,
+      "cost_usd": 0.015273,
+      "input_tokens": 5071,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 97,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2318.237066268921,
+      "cost_usd": 0.015249,
+      "input_tokens": 5058,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 98,
+      "predicted_pii_types": [
+        "full name",
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2300.482988357544,
+      "cost_usd": 0.015366000000000001,
+      "input_tokens": 5082,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 99,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2469.0639972686768,
+      "cost_usd": 0.015075000000000002,
+      "input_tokens": 5000,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 100,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1899.9321460723877,
+      "cost_usd": 0.014778,
+      "input_tokens": 4906,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 101,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2159.10005569458,
+      "cost_usd": 0.014475,
+      "input_tokens": 4805,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 102,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1956.4027786254883,
+      "cost_usd": 0.017118,
+      "input_tokens": 5686,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 103,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1996.8039989471436,
+      "cost_usd": 0.01452,
+      "input_tokens": 4820,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 104,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2063.142776489258,
+      "cost_usd": 0.01452,
+      "input_tokens": 4820,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 105,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2497.9348182678223,
+      "cost_usd": 0.014463,
+      "input_tokens": 4801,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 106,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2095.39794921875,
+      "cost_usd": 0.015590999999999999,
+      "input_tokens": 5177,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 107,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 8565.844058990479,
+      "cost_usd": 0.014718,
+      "input_tokens": 4886,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 108,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2309.391975402832,
+      "cost_usd": 0.014459999999999999,
+      "input_tokens": 4800,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 109,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [
+        "full name"
+      ],
+      "time_ms": 2045.0220108032227,
+      "cost_usd": 0.012839999999999999,
+      "input_tokens": 4260,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 110,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1999.7210502624512,
+      "cost_usd": 0.014529,
+      "input_tokens": 4823,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 111,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2238.370180130005,
+      "cost_usd": 0.015045000000000001,
+      "input_tokens": 4990,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 112,
+      "predicted_pii_types": [
+        "email address",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2298.9001274108887,
+      "cost_usd": 0.01587,
+      "input_tokens": 5250,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 113,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2097.766160964966,
+      "cost_usd": 0.015261,
+      "input_tokens": 5062,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 114,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2595.8101749420166,
+      "cost_usd": 0.014454,
+      "input_tokens": 4798,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 115,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2119.5850372314453,
+      "cost_usd": 0.014751,
+      "input_tokens": 4897,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 116,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "phone number"
+      ],
+      "time_ms": 2131.6468715667725,
+      "cost_usd": 0.013803000000000001,
+      "input_tokens": 4576,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 117,
+      "predicted_pii_types": [
+        "full name",
+        "username",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "username"
+      ],
+      "time_ms": 2114.1297817230225,
+      "cost_usd": 0.020616000000000002,
+      "input_tokens": 6822,
+      "output_tokens": 10
+    },
+    {
+      "email_id": 118,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2161.832809448242,
+      "cost_usd": 0.014517,
+      "input_tokens": 4819,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 119,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2204.6561241149902,
+      "cost_usd": 0.01506,
+      "input_tokens": 5000,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 120,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2065.8299922943115,
+      "cost_usd": 0.014472,
+      "input_tokens": 4804,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 121,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2355.0939559936523,
+      "cost_usd": 0.014570999999999999,
+      "input_tokens": 4837,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 122,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2285.2120399475098,
+      "cost_usd": 0.014499,
+      "input_tokens": 4813,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 123,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2112.1859550476074,
+      "cost_usd": 0.014547,
+      "input_tokens": 4829,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 124,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2162.184000015259,
+      "cost_usd": 0.015711000000000003,
+      "input_tokens": 5217,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 125,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2347.4178314208984,
+      "cost_usd": 0.014472,
+      "input_tokens": 4804,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 126,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2339.8640155792236,
+      "cost_usd": 0.01515,
+      "input_tokens": 5030,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 127,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 17589.534044265747,
+      "cost_usd": 0.014745000000000001,
+      "input_tokens": 4890,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 128,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2559.4139099121094,
+      "cost_usd": 0.01455,
+      "input_tokens": 4830,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 129,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2049.7848987579346,
+      "cost_usd": 0.014883,
+      "input_tokens": 4936,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 130,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2595.263957977295,
+      "cost_usd": 0.014457,
+      "input_tokens": 4799,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 131,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 3200.924873352051,
+      "cost_usd": 0.014811000000000001,
+      "input_tokens": 4912,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 132,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2235.0358963012695,
+      "cost_usd": 0.014426999999999999,
+      "input_tokens": 4789,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 133,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2149.1479873657227,
+      "cost_usd": 0.016332000000000003,
+      "input_tokens": 5424,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 134,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2485.8171939849854,
+      "cost_usd": 0.015063,
+      "input_tokens": 4981,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 135,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2404.3099880218506,
+      "cost_usd": 0.014619,
+      "input_tokens": 4853,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 136,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2136.789083480835,
+      "cost_usd": 0.013836,
+      "input_tokens": 4592,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 137,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2367.3548698425293,
+      "cost_usd": 0.015063,
+      "input_tokens": 4996,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 138,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2049.206018447876,
+      "cost_usd": 0.013295999999999999,
+      "input_tokens": 4412,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 139,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2537.0190143585205,
+      "cost_usd": 0.014358000000000001,
+      "input_tokens": 4746,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 140,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2484.264135360718,
+      "cost_usd": 0.013092,
+      "input_tokens": 4344,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 141,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2161.5688800811768,
+      "cost_usd": 0.013170000000000001,
+      "input_tokens": 4365,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 142,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 3518.61310005188,
+      "cost_usd": 0.013077,
+      "input_tokens": 4339,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 143,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2803.081274032593,
+      "cost_usd": 0.013098,
+      "input_tokens": 4346,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 144,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2656.658887863159,
+      "cost_usd": 0.013028999999999999,
+      "input_tokens": 4323,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 145,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2616.2378787994385,
+      "cost_usd": 0.014007,
+      "input_tokens": 4629,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 146,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2106.536865234375,
+      "cost_usd": 0.013959000000000001,
+      "input_tokens": 4628,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 147,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2350.9111404418945,
+      "cost_usd": 0.013101,
+      "input_tokens": 4347,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 148,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2154.2809009552,
+      "cost_usd": 0.01317,
+      "input_tokens": 4370,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 149,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2428.530216217041,
+      "cost_usd": 0.013236000000000001,
+      "input_tokens": 4387,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 150,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2701.251268386841,
+      "cost_usd": 0.013311,
+      "input_tokens": 4417,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 151,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1972.4791049957275,
+      "cost_usd": 0.013509,
+      "input_tokens": 4483,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 152,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2465.2318954467773,
+      "cost_usd": 0.013044,
+      "input_tokens": 4328,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 153,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2291.377067565918,
+      "cost_usd": 0.013056,
+      "input_tokens": 4332,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 154,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1896.437168121338,
+      "cost_usd": 0.013269,
+      "input_tokens": 4403,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 155,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2532.2811603546143,
+      "cost_usd": 0.015096,
+      "input_tokens": 5007,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 156,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2119.6720600128174,
+      "cost_usd": 0.013413000000000001,
+      "input_tokens": 4446,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 157,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2127.286911010742,
+      "cost_usd": 0.023283,
+      "input_tokens": 7741,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 158,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2642.860174179077,
+      "cost_usd": 0.013406999999999999,
+      "input_tokens": 4449,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 159,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2597.7189540863037,
+      "cost_usd": 0.014025,
+      "input_tokens": 4655,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 160,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2275.907039642334,
+      "cost_usd": 0.013098,
+      "input_tokens": 4346,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 161,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2847.632884979248,
+      "cost_usd": 0.013053,
+      "input_tokens": 4331,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 162,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 3174.8406887054443,
+      "cost_usd": 0.013302,
+      "input_tokens": 4414,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 163,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2094.4950580596924,
+      "cost_usd": 0.014226,
+      "input_tokens": 4717,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 164,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 3005.096197128296,
+      "cost_usd": 0.013815000000000001,
+      "input_tokens": 4565,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 165,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2728.722333908081,
+      "cost_usd": 0.013488,
+      "input_tokens": 4476,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 166,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2897.7530002593994,
+      "cost_usd": 0.013427999999999999,
+      "input_tokens": 4456,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 167,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2400.1200199127197,
+      "cost_usd": 0.013094999999999999,
+      "input_tokens": 4345,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 168,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2096.8828201293945,
+      "cost_usd": 0.014598,
+      "input_tokens": 4846,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 169,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2970.7119464874268,
+      "cost_usd": 0.013071,
+      "input_tokens": 4337,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 170,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2517.896890640259,
+      "cost_usd": 0.013413,
+      "input_tokens": 4451,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 171,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1834.925889968872,
+      "cost_usd": 0.013413,
+      "input_tokens": 4451,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 172,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2636.427879333496,
+      "cost_usd": 0.013143,
+      "input_tokens": 4361,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 173,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2315.9239292144775,
+      "cost_usd": 0.013692,
+      "input_tokens": 4544,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 174,
+      "predicted_pii_types": [
+        "password",
+        "username"
+      ],
+      "ground_truth_pii_types": [
+        "username",
+        "password"
+      ],
+      "time_ms": 2202.415943145752,
+      "cost_usd": 0.013773,
+      "input_tokens": 4561,
+      "output_tokens": 6
+    },
+    {
+      "email_id": 175,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2231.7349910736084,
+      "cost_usd": 0.013311,
+      "input_tokens": 4412,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 176,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2376.9562244415283,
+      "cost_usd": 0.013271999999999999,
+      "input_tokens": 4404,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 177,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2274.9550342559814,
+      "cost_usd": 0.013854,
+      "input_tokens": 4598,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 178,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2104.04896736145,
+      "cost_usd": 0.016416,
+      "input_tokens": 5452,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 179,
+      "predicted_pii_types": [
+        "email address",
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2346.511125564575,
+      "cost_usd": 0.013473,
+      "input_tokens": 4451,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 180,
+      "predicted_pii_types": [
+        "password",
+        "username"
+      ],
+      "ground_truth_pii_types": [
+        "username",
+        "password"
+      ],
+      "time_ms": 2559.1981410980225,
+      "cost_usd": 0.013779,
+      "input_tokens": 4563,
+      "output_tokens": 6
+    },
+    {
+      "email_id": 181,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2264.965057373047,
+      "cost_usd": 0.013305,
+      "input_tokens": 4410,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 182,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2063.0998611450195,
+      "cost_usd": 0.013227000000000001,
+      "input_tokens": 4384,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 183,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2506.4759254455566,
+      "cost_usd": 0.013386,
+      "input_tokens": 4422,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 184,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2577.054977416992,
+      "cost_usd": 0.014595,
+      "input_tokens": 4845,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 185,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2804.6178817749023,
+      "cost_usd": 0.014742000000000002,
+      "input_tokens": 4889,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 186,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 1946.3961124420166,
+      "cost_usd": 0.013263,
+      "input_tokens": 4396,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 187,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 3215.564012527466,
+      "cost_usd": 0.014238,
+      "input_tokens": 4721,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 188,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2456.9756984710693,
+      "cost_usd": 0.013122,
+      "input_tokens": 4354,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 189,
+      "predicted_pii_types": [
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 1947.8752613067627,
+      "cost_usd": 0.013269000000000001,
+      "input_tokens": 4398,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 190,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 5782.958745956421,
+      "cost_usd": 0.014157000000000001,
+      "input_tokens": 4694,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 191,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2003.88503074646,
+      "cost_usd": 0.014598,
+      "input_tokens": 4846,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 192,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2297.508955001831,
+      "cost_usd": 0.013425,
+      "input_tokens": 4455,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 193,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2343.8429832458496,
+      "cost_usd": 0.01338,
+      "input_tokens": 4440,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 194,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2163.099765777588,
+      "cost_usd": 0.013377,
+      "input_tokens": 4439,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 195,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2039.086103439331,
+      "cost_usd": 0.0132,
+      "input_tokens": 4380,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 196,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2060.995101928711,
+      "cost_usd": 0.013094999999999999,
+      "input_tokens": 4345,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 197,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2926.2547492980957,
+      "cost_usd": 0.013398,
+      "input_tokens": 4441,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 198,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2136.688232421875,
+      "cost_usd": 0.013047,
+      "input_tokens": 4329,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 199,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2673.88916015625,
+      "cost_usd": 0.013083,
+      "input_tokens": 4341,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 200,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1983.2441806793213,
+      "cost_usd": 0.013460999999999999,
+      "input_tokens": 4467,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 201,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2102.155923843384,
+      "cost_usd": 0.013452,
+      "input_tokens": 4464,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 202,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "address",
+        "phone number"
+      ],
+      "time_ms": 2947.489023208618,
+      "cost_usd": 0.013965,
+      "input_tokens": 4615,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 203,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2157.6619148254395,
+      "cost_usd": 0.013785,
+      "input_tokens": 4575,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 204,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1894.5207595825195,
+      "cost_usd": 0.013857,
+      "input_tokens": 4599,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 205,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2236.6950511932373,
+      "cost_usd": 0.01398,
+      "input_tokens": 4640,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 206,
+      "predicted_pii_types": [
+        "full name",
+        "phone number",
+        "email address"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 4003.622055053711,
+      "cost_usd": 0.014394,
+      "input_tokens": 4743,
+      "output_tokens": 11
+    },
+    {
+      "email_id": 207,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1993.9100742340088,
+      "cost_usd": 0.013848,
+      "input_tokens": 4596,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 208,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2461.832046508789,
+      "cost_usd": 0.013947000000000001,
+      "input_tokens": 4624,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 209,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2209.167003631592,
+      "cost_usd": 0.013911000000000001,
+      "input_tokens": 4612,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 210,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2568.3960914611816,
+      "cost_usd": 0.014052,
+      "input_tokens": 4664,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 211,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2094.1038131713867,
+      "cost_usd": 0.013797,
+      "input_tokens": 4579,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 212,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2250.861167907715,
+      "cost_usd": 0.014496,
+      "input_tokens": 4807,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 213,
+      "predicted_pii_types": [
+        "full name"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 8470.266103744507,
+      "cost_usd": 0.014073,
+      "input_tokens": 4666,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 214,
+      "predicted_pii_types": [
+        "username",
+        "password"
+      ],
+      "ground_truth_pii_types": [
+        "username",
+        "password"
+      ],
+      "time_ms": 2650.217056274414,
+      "cost_usd": 0.013755,
+      "input_tokens": 4555,
+      "output_tokens": 6
+    },
+    {
+      "email_id": 215,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2784.9631309509277,
+      "cost_usd": 0.014091000000000001,
+      "input_tokens": 4657,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 216,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 4200.7458209991455,
+      "cost_usd": 0.013839,
+      "input_tokens": 4588,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 217,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2812.1438026428223,
+      "cost_usd": 0.013793999999999999,
+      "input_tokens": 4578,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 218,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 3148.8959789276123,
+      "cost_usd": 0.014088,
+      "input_tokens": 4656,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 219,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 3275.4571437835693,
+      "cost_usd": 0.013748999999999999,
+      "input_tokens": 4563,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 220,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 2545.478105545044,
+      "cost_usd": 0.013866,
+      "input_tokens": 4582,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 221,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2079.352617263794,
+      "cost_usd": 0.014079,
+      "input_tokens": 4673,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 222,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1974.3289947509766,
+      "cost_usd": 0.013809,
+      "input_tokens": 4583,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 223,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2049.330234527588,
+      "cost_usd": 0.0141,
+      "input_tokens": 4680,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 224,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 3569.5087909698486,
+      "cost_usd": 0.014336999999999999,
+      "input_tokens": 4759,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 225,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2150.7577896118164,
+      "cost_usd": 0.013998,
+      "input_tokens": 4646,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 226,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2143.095016479492,
+      "cost_usd": 0.013797,
+      "input_tokens": 4579,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 227,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2027.2839069366455,
+      "cost_usd": 0.014151,
+      "input_tokens": 4692,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 228,
+      "predicted_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2698.920965194702,
+      "cost_usd": 0.016287,
+      "input_tokens": 5389,
+      "output_tokens": 8
+    },
+    {
+      "email_id": 229,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1872.8768825531006,
+      "cost_usd": 0.013785,
+      "input_tokens": 4575,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 230,
+      "predicted_pii_types": [
+        "email address",
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [
+        "phone number"
+      ],
+      "time_ms": 2657.0000648498535,
+      "cost_usd": 0.014007,
+      "input_tokens": 4614,
+      "output_tokens": 11
+    },
+    {
+      "email_id": 231,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2242.892026901245,
+      "cost_usd": 0.013848,
+      "input_tokens": 4596,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 232,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2218.0228233337402,
+      "cost_usd": 0.014361,
+      "input_tokens": 4762,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 233,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2490.0121688842773,
+      "cost_usd": 0.013746,
+      "input_tokens": 4562,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 234,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2185.894012451172,
+      "cost_usd": 0.014043,
+      "input_tokens": 4661,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 235,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2189.6650791168213,
+      "cost_usd": 0.013842,
+      "input_tokens": 4589,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 236,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2752.285957336426,
+      "cost_usd": 0.015132000000000001,
+      "input_tokens": 5019,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 237,
+      "predicted_pii_types": [
+        "password"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2103.3289432525635,
+      "cost_usd": 0.013809,
+      "input_tokens": 4583,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 238,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 3485.9371185302734,
+      "cost_usd": 0.013815000000000001,
+      "input_tokens": 4580,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 239,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2149.1141319274902,
+      "cost_usd": 0.014027999999999999,
+      "input_tokens": 4656,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 240,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2892.1031951904297,
+      "cost_usd": 0.013869000000000001,
+      "input_tokens": 4598,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 241,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2154.9859046936035,
+      "cost_usd": 0.013793999999999999,
+      "input_tokens": 4578,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 242,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [
+        "full name",
+        "phone number"
+      ],
+      "time_ms": 2739.0828132629395,
+      "cost_usd": 0.016298999999999998,
+      "input_tokens": 5408,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 243,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2230.8409214019775,
+      "cost_usd": 0.013887,
+      "input_tokens": 4609,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 244,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2392.277956008911,
+      "cost_usd": 0.013872,
+      "input_tokens": 4599,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 245,
+      "predicted_pii_types": [
+        "email address"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2221.7071056365967,
+      "cost_usd": 0.014007,
+      "input_tokens": 4644,
+      "output_tokens": 5
+    },
+    {
+      "email_id": 246,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 1843.0378437042236,
+      "cost_usd": 0.014447999999999999,
+      "input_tokens": 4796,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 247,
+      "predicted_pii_types": [],
+      "ground_truth_pii_types": [],
+      "time_ms": 2113.0051612854004,
+      "cost_usd": 0.014081999999999999,
+      "input_tokens": 4674,
+      "output_tokens": 4
+    },
+    {
+      "email_id": 248,
+      "predicted_pii_types": [
+        "email address",
+        "full name",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 2583.9691162109375,
+      "cost_usd": 0.014955000000000001,
+      "input_tokens": 4930,
+      "output_tokens": 11
+    },
+    {
+      "email_id": 249,
+      "predicted_pii_types": [
+        "full name",
+        "email address",
+        "phone number"
+      ],
+      "ground_truth_pii_types": [],
+      "time_ms": 3760.558843612671,
+      "cost_usd": 0.014955000000000001,
+      "input_tokens": 4930,
+      "output_tokens": 11
+    },
+    {
+      "email_id": 250,
+      "predicted_pii_types": [
+        "ssn",
+        "drivers license #"
+      ],
+      "ground_truth_pii_types": [
+        "ssn",
+        "drivers license"
+      ],
+      "time_ms": 2572.0207691192627,
+      "cost_usd": 0.013779,
+      "input_tokens": 4548,
+      "output_tokens": 9
+    }
+  ],
+  "per_type_metrics": {
+    "address": {
+      "pii_type": "address",
+      "TP": 0,
+      "FP": 0,
+      "FN": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "drivers license": {
+      "pii_type": "drivers license",
+      "TP": 0,
+      "FP": 0,
+      "FN": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "email address": {
+      "pii_type": "email address",
+      "TP": 1,
+      "FP": 50,
+      "FN": 0,
+      "precision": 0.0196078431372549,
+      "recall": 1.0,
+      "f1": 0.038461538461538464
+    },
+    "full name": {
+      "pii_type": "full name",
+      "TP": 3,
+      "FP": 28,
+      "FN": 9,
+      "precision": 0.0967741935483871,
+      "recall": 0.25,
+      "f1": 0.13953488372093023
+    },
+    "password": {
+      "pii_type": "password",
+      "TP": 4,
+      "FP": 2,
+      "FN": 0,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    "phone number": {
+      "pii_type": "phone number",
+      "TP": 12,
+      "FP": 22,
+      "FN": 1,
+      "precision": 0.35294117647058826,
+      "recall": 0.9230769230769231,
+      "f1": 0.5106382978723405
+    },
+    "ssn": {
+      "pii_type": "ssn",
+      "TP": 1,
+      "FP": 0,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "username": {
+      "pii_type": "username",
+      "TP": 6,
+      "FP": 1,
+      "FN": 0,
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.923076923076923
+    }
+  },
+  "benchmarks": {
+    "total_time_seconds": 643.852303981781,
+    "avg_time_per_email_ms": 2575.409215927124,
+    "median_time_per_email_ms": 2287.631630897522,
+    "min_time_ms": 1834.925889968872,
+    "max_time_ms": 17589.534044265747,
+    "total_cost_usd": 3.577109999999998,
+    "avg_cost_per_email_usd": 0.01430844,
+    "total_input_tokens": 1186375,
+    "total_output_tokens": 1199,
+    "avg_input_tokens": 4745.5,
+    "avg_output_tokens": 4.796,
+    "projected_time_50k_minutes": 2146.1743466059365,
+    "projected_cost_50k_usd": 715.422
+  }
+}

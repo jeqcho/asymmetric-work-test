@@ -1,0 +1,73 @@
+detector_name,pii_type,accuracy,precision,recall,f1
+haiku_zeroshot_classification,OVERALL_EXACT_MATCH,0.536,,,
+haiku_zeroshot_classification,address,,0.0,0.0,0.0
+haiku_zeroshot_classification,drivers license,,0.0,0.0,0.0
+haiku_zeroshot_classification,email address,,0.00980392156862745,1.0,0.01941747572815534
+haiku_zeroshot_classification,full name,,0.3333333333333333,0.08333333333333333,0.13333333333333333
+haiku_zeroshot_classification,password,,0.6666666666666666,1.0,0.8
+haiku_zeroshot_classification,phone number,,0.34210526315789475,1.0,0.5098039215686275
+haiku_zeroshot_classification,ssn,,1.0,1.0,1.0
+haiku_zeroshot_classification,username,,0.75,1.0,0.8571428571428571
+haiku_5shot_classification,OVERALL_EXACT_MATCH,0.512,,,
+haiku_5shot_classification,address,,0.0,0.0,0.0
+haiku_5shot_classification,drivers license,,0.0,0.0,0.0
+haiku_5shot_classification,email address,,0.010309278350515464,1.0,0.020408163265306124
+haiku_5shot_classification,full name,,0.07407407407407407,0.16666666666666666,0.10256410256410256
+haiku_5shot_classification,password,,0.6666666666666666,1.0,0.8
+haiku_5shot_classification,phone number,,0.37142857142857144,1.0,0.5416666666666666
+haiku_5shot_classification,ssn,,1.0,1.0,1.0
+haiku_5shot_classification,username,,1.0,1.0,1.0
+sonnet_zeroshot_classification,OVERALL_EXACT_MATCH,0.504,,,
+sonnet_zeroshot_classification,address,,0.0,0.0,0.0
+sonnet_zeroshot_classification,drivers license,,0.0,0.0,0.0
+sonnet_zeroshot_classification,email address,,0.00909090909090909,1.0,0.018018018018018018
+sonnet_zeroshot_classification,full name,,0.5,0.08333333333333333,0.14285714285714285
+sonnet_zeroshot_classification,password,,0.5714285714285714,1.0,0.7272727272727273
+sonnet_zeroshot_classification,phone number,,0.36363636363636365,0.9230769230769231,0.5217391304347827
+sonnet_zeroshot_classification,ssn,,1.0,1.0,1.0
+sonnet_zeroshot_classification,username,,0.75,1.0,0.8571428571428571
+sonnet_5shot_classification,OVERALL_EXACT_MATCH,0.564,,,
+sonnet_5shot_classification,address,,0.0,0.0,0.0
+sonnet_5shot_classification,drivers license,,0.0,0.0,0.0
+sonnet_5shot_classification,email address,,0.0125,1.0,0.02469135802469136
+sonnet_5shot_classification,full name,,0.05263157894736842,0.08333333333333333,0.06451612903225808
+sonnet_5shot_classification,password,,0.5,1.0,0.6666666666666666
+sonnet_5shot_classification,phone number,,0.35294117647058826,0.9230769230769231,0.5106382978723405
+sonnet_5shot_classification,ssn,,1.0,1.0,1.0
+sonnet_5shot_classification,username,,0.7142857142857143,0.8333333333333334,0.7692307692307692
+haiku_zeroshot_classification_with_presidio,OVERALL_EXACT_MATCH,0.544,,,
+haiku_zeroshot_classification_with_presidio,address,,0.0,0.0,0.0
+haiku_zeroshot_classification_with_presidio,drivers license,,0.0,0.0,0.0
+haiku_zeroshot_classification_with_presidio,email address,,0.010416666666666666,1.0,0.020618556701030924
+haiku_zeroshot_classification_with_presidio,full name,,0.25,0.08333333333333333,0.125
+haiku_zeroshot_classification_with_presidio,password,,0.6666666666666666,1.0,0.8
+haiku_zeroshot_classification_with_presidio,phone number,,0.2765957446808511,1.0,0.43333333333333335
+haiku_zeroshot_classification_with_presidio,ssn,,1.0,1.0,1.0
+haiku_zeroshot_classification_with_presidio,username,,0.8571428571428571,1.0,0.923076923076923
+haiku_5shot_classification_with_presidio,OVERALL_EXACT_MATCH,0.588,,,
+haiku_5shot_classification_with_presidio,address,,0.0,0.0,0.0
+haiku_5shot_classification_with_presidio,drivers license,,0.0,0.0,0.0
+haiku_5shot_classification_with_presidio,email address,,0.013157894736842105,1.0,0.025974025974025976
+haiku_5shot_classification_with_presidio,full name,,0.061224489795918366,0.25,0.09836065573770492
+haiku_5shot_classification_with_presidio,password,,0.6666666666666666,1.0,0.8
+haiku_5shot_classification_with_presidio,phone number,,0.3023255813953488,1.0,0.46428571428571425
+haiku_5shot_classification_with_presidio,ssn,,1.0,1.0,1.0
+haiku_5shot_classification_with_presidio,username,,0.8571428571428571,1.0,0.923076923076923
+sonnet_zeroshot_classification_with_presidio,OVERALL_EXACT_MATCH,0.6,,,
+sonnet_zeroshot_classification_with_presidio,address,,0.0,0.0,0.0
+sonnet_zeroshot_classification_with_presidio,drivers license,,0.0,0.0,0.0
+sonnet_zeroshot_classification_with_presidio,email address,,0.011111111111111112,1.0,0.02197802197802198
+sonnet_zeroshot_classification_with_presidio,full name,,0.5,0.08333333333333333,0.14285714285714285
+sonnet_zeroshot_classification_with_presidio,password,,0.6666666666666666,1.0,0.8
+sonnet_zeroshot_classification_with_presidio,phone number,,0.39285714285714285,0.8461538461538461,0.5365853658536585
+sonnet_zeroshot_classification_with_presidio,ssn,,1.0,1.0,1.0
+sonnet_zeroshot_classification_with_presidio,username,,0.75,1.0,0.8571428571428571
+sonnet_5shot_classification_with_presidio,OVERALL_EXACT_MATCH,0.656,,,
+sonnet_5shot_classification_with_presidio,address,,0.0,0.0,0.0
+sonnet_5shot_classification_with_presidio,drivers license,,0.0,0.0,0.0
+sonnet_5shot_classification_with_presidio,email address,,0.0196078431372549,1.0,0.038461538461538464
+sonnet_5shot_classification_with_presidio,full name,,0.0967741935483871,0.25,0.13953488372093023
+sonnet_5shot_classification_with_presidio,password,,0.6666666666666666,1.0,0.8
+sonnet_5shot_classification_with_presidio,phone number,,0.35294117647058826,0.9230769230769231,0.5106382978723405
+sonnet_5shot_classification_with_presidio,ssn,,1.0,1.0,1.0
+sonnet_5shot_classification_with_presidio,username,,0.8571428571428571,1.0,0.923076923076923
