@@ -6,7 +6,7 @@ from pathlib import Path
 
 from src.detectors.base import DetectionResult
 from src.utils.data_loader import Email
-from src.config import FALSE_POSITIVES_DIR
+from src.config import ERROR_ANALYSIS_DIR
 
 
 def export_false_positives(
@@ -28,10 +28,10 @@ def export_false_positives(
         Path to the exported CSV file
     """
     # Ensure output directory exists
-    FALSE_POSITIVES_DIR.mkdir(parents=True, exist_ok=True)
+    ERROR_ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
 
     # Build output path
-    output_path = FALSE_POSITIVES_DIR / f"{detector_name}_fp.csv"
+    output_path = ERROR_ANALYSIS_DIR / f"{detector_name}_fp.csv"
 
     # Find false positives (predicted PII but ground truth is no PII)
     false_positives = []
@@ -94,10 +94,10 @@ def export_false_negatives(
         Path to the exported CSV file
     """
     # Ensure output directory exists
-    FALSE_POSITIVES_DIR.mkdir(parents=True, exist_ok=True)
+    ERROR_ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
 
     # Build output path
-    output_path = FALSE_POSITIVES_DIR / f"{detector_name}_fn.csv"
+    output_path = ERROR_ANALYSIS_DIR / f"{detector_name}_fn.csv"
 
     # Find false negatives (predicted no PII but ground truth is PII)
     false_negatives = []

@@ -13,7 +13,7 @@ TASK_DIR = PROJECT_ROOT / "task"
 DATASETS_DIR = TASK_DIR / "Datasets"
 RESULTS_DIR = PROJECT_ROOT / "results"
 VISUALIZATIONS_DIR = RESULTS_DIR / "visualizations"
-FALSE_POSITIVES_DIR = RESULTS_DIR / "false_positives"
+ERROR_ANALYSIS_DIR = RESULTS_DIR / "error_analysis"
 
 # Dataset paths
 LABELED_DATASET_PATH = DATASETS_DIR / "250_labeled_dataset.csv"

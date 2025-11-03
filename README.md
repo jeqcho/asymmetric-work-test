@@ -162,7 +162,7 @@ Results from the 250-sample dataset:
 
 ### False Positives
 
-199-201 false positives were flagged by Presidio. These are exported to CSV files in `results/false_positives/` for manual review to determine if they are:
+199-201 false positives were flagged by Presidio. These are exported to CSV files in `results/error_analysis/` for manual review to determine if they are:
 - True false positives (labeling was correct)
 - Potential labeling errors (emails that should have been labeled as containing PII)
 
@@ -199,8 +199,8 @@ The framework detects 15 types of PII as specified in the task requirements:
 - Complete metrics and benchmarks
 
 ### False Positives/Negatives
-`results/false_positives/{detector_name}_fp.csv` - Emails incorrectly flagged as containing PII
-`results/false_positives/{detector_name}_fn.csv` - Emails with PII that were missed
+`results/error_analysis/{detector_name}_fp.csv` - Emails incorrectly flagged as containing PII
+`results/error_analysis/{detector_name}_fn.csv` - Emails with PII that were missed
 
 ### Visualizations
 - `results/visualizations/f1_scores.png` - F1 score comparison bar chart
@@ -250,7 +250,7 @@ uv run python scripts/run_claude_only.py
 Results will be generated in the `results/` directory:
 - `comparison_metrics.csv` - Summary comparison
 - `visualizations/` - Charts and plots
-- `false_positives/` - FP/FN CSVs for manual review
+- `error_analysis/` - FP/FN CSVs for manual review
 - Individual JSON files per detector
 
 ## Next Steps

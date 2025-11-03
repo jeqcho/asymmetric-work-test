@@ -111,7 +111,7 @@ def main():
     for detector in claude_detectors:
         print(f"    results/{detector.name}_results.json")
     print(f"\n  False positive/negative CSVs:")
-    print(f"    results/false_positives/")
+    print(f"    results/error_analysis/")
 
     print("\n" + "="*60)
     print("Next steps:")
