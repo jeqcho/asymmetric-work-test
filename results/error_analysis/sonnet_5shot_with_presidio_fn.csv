@@ -1,0 +1,12 @@
+email_id,detector,ground_truth,prediction,subject,pii_types,message_body_preview,confidence
+47,sonnet_5shot_with_presidio,YES,NO,Re: Sept 1 Payment,address,"Brenda,
+
+ I checked my records and I mailed check #1178 for the normal amount on 
+August 28th.  I mailed it to 4303 Pate Rd. #29, College Station, TX 77845.  I 
+will go ahead and mail you another chec...",N/A
+109,sonnet_5shot_with_presidio,YES,NO,TRANSPORTATION MODEL,full name,"---------------------- Forwarded by Phillip K Allen/HOU/ECT on 08/09/2000 
+02:11 PM ---------------------------
+   
+	Enron North America Corp.
+	
+	From:  Colleen Sullivan                           08/0...",N/A

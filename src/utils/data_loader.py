@@ -1,11 +1,12 @@
 """Data loading and parsing utilities."""
 
+import json
 import pandas as pd
 import numpy as np
-from typing import List, Tuple, Optional
+from typing import List, Tuple, Optional, Dict, Any
 from dataclasses import dataclass
 
-from src.config import LABELED_DATASET_PATH, UNLABELED_DATASET_PATH
+from src.config import LABELED_DATASET_PATH, UNLABELED_DATASET_PATH, RESULTS_DIR
 
 
 @dataclass
@@ -19,6 +20,7 @@ class Email:
     bcc: str
     message_body: str
     data_elements: Optional[str] = None  # PII labels (only in labeled dataset)
+    presidio_entities: Optional[List[Dict[str, Any]]] = None  # Presidio detected entities
 
     def has_pii(self) -> bool:
         """Check if email contains PII based on ground truth labels."""
@@ -128,3 +130,48 @@ def parse_ground_truth(emails: List[Email]) -> List[bool]:
         List of boolean values indicating whether each email has PII.
     """
     return [email.has_pii() for email in emails]
+
+
+def load_presidio_cache() -> Dict[int, List[Dict[str, Any]]]:
+    """
+    Load Presidio entity cache from JSON file.
+    
+    Returns:
+        Dictionary mapping email_id -> list of entities
+    """
+    cache_path = RESULTS_DIR / "presidio_entities_cache.json"
+    
+    if not cache_path.exists():
+        raise FileNotFoundError(
+            f"Presidio cache not found at {cache_path}. "
+            f"Please run scripts/precompute_presidio_outputs.py first."
+        )
+    
+    with open(cache_path, 'r') as f:
+        cache = json.load(f)
+    
+    # Convert email_id keys from string to int if needed
+    return {int(email_id): entities for email_id, entities in cache.items()}
+
+
+def load_labeled_dataset_with_presidio() -> List[Email]:
+    """
+    Load the 250-sample gold-labeled dataset with Presidio entities attached.
+    
+    Returns:
+        List of Email objects with presidio_entities populated
+    """
+    # Load base emails
+    emails = load_labeled_dataset()
+    
+    # Load Presidio cache
+    presidio_cache = load_presidio_cache()
+    
+    # Attach Presidio entities to emails
+    for email in emails:
+        if email.id in presidio_cache:
+            email.presidio_entities = presidio_cache[email.id]
+        else:
+            email.presidio_entities = []
+    
+    return emails
