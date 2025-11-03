@@ -1,0 +1,118 @@
+================================================================================
+Extracting False Negative Emails from Hybrid (Presidio-augmented) Variants
+================================================================================
+
+Found 3 unique false negative email IDs
+Email IDs: [7, 47, 109]
+
+Loading labeled dataset...
+
+Extracting full email content for 3 emails...
+================================================================================
+
+================================================================================
+EMAIL #1 (ID: 7)
+================================================================================
+Subject: nan
+From: Phillip K Allen
+To: david.l.johnson@enron.com, John Shafer
+CC: nan
+BCC: nan
+PII Types (Ground Truth): email address
+
+Message Body:
+--------------------------------------------------------------------------------
+Please cc the following distribution list with updates:
+
+Phillip Allen (pallen@enron.com)
+Mike Grigsby (mike.grigsby@enron.com)
+Keith Holst (kholst@enron.com)
+Monique Sanchez
+Frank Ermis
+John Lavorato
+
+
+Thank you for your help
+
+Phillip Allen
+--------------------------------------------------------------------------------
+
+
+================================================================================
+EMAIL #2 (ID: 47)
+================================================================================
+Subject: Re: Sept 1 Payment
+From: Phillip K Allen
+To: Brenda Stone <bs_stone@yahoo.com> @ ENRON
+CC: nan
+BCC: nan
+PII Types (Ground Truth): address
+
+Message Body:
+--------------------------------------------------------------------------------
+Brenda,
+
+ I checked my records and I mailed check #1178 for the normal amount on 
+August 28th.  I mailed it to 4303 Pate Rd. #29, College Station, TX 77845.  I 
+will go ahead and mail you another check.  If the first one shows up you can 
+treat the 2nd as payment for October.
+
+ I know your concerns about the site plan.  I will not proceed without 
+getting the details and getting your approval.
+
+ I will find that amortization schedule and send it soon.
+
+Phillip
+--------------------------------------------------------------------------------
+
+
+================================================================================
+EMAIL #3 (ID: 109)
+================================================================================
+Subject: TRANSPORTATION MODEL
+From: Phillip K Allen
+To: Keith Holst
+CC: nan
+BCC: nan
+PII Types (Ground Truth): full name
+
+Message Body:
+--------------------------------------------------------------------------------
+---------------------- Forwarded by Phillip K Allen/HOU/ECT on 08/09/2000 
+02:11 PM ---------------------------
+   
+	Enron North America Corp.
+	
+	From:  Colleen Sullivan                           08/09/2000 10:11 AM
+	
+
+To: Keith Holst/HOU/ECT@ect, Andrew H Lewis/HOU/ECT@ECT, Fletcher J 
+Sturm/HOU/ECT@ECT, Larry May/Corp/Enron@Enron, Kate Fraser/HOU/ECT@ECT, Zimin 
+Lu/HOU/ECT@ECT, Greg Couch/HOU/ECT@ECT, John Griffith/Corp/Enron@Enron, 
+Sandra F Brawner/HOU/ECT@ECT, John J Lavorato/Corp/Enron@Enron, Hunter S 
+Shively/HOU/ECT@ECT, Phillip K Allen/HOU/ECT@ECT, Scott Neal/HOU/ECT@ECT, 
+Thomas A Martin/HOU/ECT@ECT, Steve Jackson/HOU/ECT@ECT
+cc: Julie A Gomez/HOU/ECT@ECT, Stephanie Miller/Corp/Enron@ENRON 
+Subject: TRANSPORTATION MODEL
+
+Please plan to attend a meeting on Friday, August 11 at 11:15 a.m. in 30C1 to 
+discuss the transportation model.  Now that we have had several traders 
+managing transportation positions for several months, I would like to discuss 
+any issues you have with the way the model works.   I have asked Zimin Lu 
+(Research), Mark Breese and John Griffith (Structuring) to attend so they 
+will be available to answer any technical questions.   The point of this 
+meeting is to get all issues out in the open and make sure everyone is 
+comfortable with using the model and position manager, and to make sure those 
+who are managing the books believe in the model's results.   Since I have 
+heard a few concerns, I hope you will take advantage of this opportunity to 
+discuss them.
+
+Please let me know if you are unable to attend.
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Total: 3 unique false negative emails extracted
+================================================================================
+

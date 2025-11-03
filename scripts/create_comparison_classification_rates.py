@@ -15,16 +15,38 @@ from src.config import RESULTS_DIR, VISUALIZATIONS_DIR
 
 
 def load_results(detector_names: List[str]) -> List[Dict]:
-    """Load results from JSON files."""
+    """Load results from JSON files. Returns (results, result_variant_map)."""
     results = []
+    result_variant_map = {}  # Maps (detector_name, filename) -> variant_type
+    
     for name in detector_names:
-        json_path = RESULTS_DIR / f"{name}_results.json"
+        # Handle different naming patterns
+        if '_conservative' in name:
+            # Conservative files are named: {base}_results_conservative.json
+            base = name.replace('_conservative', '')
+            json_path = RESULTS_DIR / f"{base}_results_conservative.json"
+            variant = 'conservative'
+        elif '_with_presidio' in name:
+            # Hybrid files are named: {name}_results.json
+            json_path = RESULTS_DIR / f"{name}_results.json"
+            variant = 'hybrid'
+        else:
+            # Regular files are named: {name}_results.json
+            json_path = RESULTS_DIR / f"{name}_results.json"
+            variant = 'original'
+        
         if json_path.exists():
             with open(json_path, 'r') as f:
                 data = json.load(f)
+                detector_name = data['detector_name']
                 results.append(data)
+                # Use filename as part of the key to handle duplicate detector_names
+                # Store variant info in the result dict itself
+                data['_variant_type'] = variant
+                data['_filename'] = json_path.name
         else:
             print(f"Warning: {json_path} not found, skipping...")
+    
     return results
 
 
@@ -74,30 +96,35 @@ def plot_comparison_classification_rates():
         print("Error: No results found!")
         return
     
-    # Group results by base detector name
+    # Group results by base detector name using the variant type stored in result
     grouped = {}
     for result in results:
         name = result['detector_name']
         
-        # Extract base name and variant type
+        # Get variant type from the metadata we stored (this is the key!)
+        variant = result.get('_variant_type', 'original')
+        
+        # Determine base name
         if '_with_presidio' in name:
             base = name.replace('_with_presidio', '')
-            variant = 'hybrid'
-        elif '_conservative' in name:
-            base = name.replace('_conservative', '')
-            variant = 'conservative'
+            variant = 'hybrid'  # Override to ensure hybrid is correct
         else:
             base = name
-            variant = 'original'
+            # Keep the variant from metadata (conservative vs original)
+            # Don't override it here since they have the same base name
         
         if base not in grouped:
             grouped[base] = {}
+        
+        # Store the result with its variant type
+        # Multiple results can share the same base but have different variants
         grouped[base][variant] = result
     
     # Prepare data for plotting
     base_names = sorted(grouped.keys())
-    variants = ['original', 'conservative', 'hybrid']
-    variant_labels = ['Original', 'Conservative', 'Hybrid (with Presidio)']
+    # Order: conservative, original, hybrid
+    variants = ['conservative', 'original', 'hybrid']
+    variant_labels = ['Conservative', 'Original', 'Hybrid (with Presidio)']
     rate_types = ['FPR', 'FNR', 'TPR', 'TNR']
     rate_labels = ['False Positive Rate', 'False Negative Rate', 
                    'True Positive Rate (Recall)', 'True Negative Rate (Specificity)']
