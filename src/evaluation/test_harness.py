@@ -1,32 +1,41 @@
 """Main test harness to orchestrate detector evaluation."""
 
 import json
-from typing import List, Dict
+from typing import List, Dict, Optional
 from dataclasses import asdict
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from tqdm import tqdm
 
 from src.detectors.base import BaseDetector, DetectionResult
 from src.utils.data_loader import Email, parse_ground_truth
 from src.evaluation.metrics import calculate_confusion_matrix
 from src.evaluation.benchmark import calculate_benchmark_stats
 from src.evaluation.false_positive_tracker import export_false_positives, export_false_negatives
-from src.config import RESULTS_DIR
+from src.config import RESULTS_DIR, PARALLEL_REQUESTS
 
 
 class TestHarness:
     """Orchestrates evaluation of PII detectors."""
 
-    def __init__(self, detectors: List[BaseDetector], emails: List[Email]):
+    def __init__(
+        self,
+        detectors: List[BaseDetector],
+        emails: List[Email],
+        parallel_requests: Optional[int] = None
+    ):
         """
         Initialize test harness.
 
         Args:
             detectors: List of detector instances to evaluate
             emails: List of emails to process
+            parallel_requests: Number of parallel API requests (defaults to PARALLEL_REQUESTS from config)
         """
         self.detectors = detectors
         self.emails = emails
         self.ground_truth = parse_ground_truth(emails)
+        self.parallel_requests = parallel_requests if parallel_requests is not None else PARALLEL_REQUESTS
 
         # Ensure results directory exists
         RESULTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -42,16 +51,41 @@ class TestHarness:
             Dictionary with evaluation results
         """
         print(f"\n  Evaluating {detector.name}...")
-        print(f"  ⏳ Processing {len(self.emails)} emails...")
+        print(f"  ⏳ Processing {len(self.emails)} emails with {self.parallel_requests} parallel requests...")
 
-        # Run detection on all emails
-        results: List[DetectionResult] = []
-        for i, email in enumerate(self.emails, 1):
-            if i % 50 == 0:
-                print(f"    Progress: {i}/{len(self.emails)} emails processed ({i/len(self.emails)*100:.1f}%)")
+        # Run detection on all emails in parallel
+        results: List[DetectionResult] = [None] * len(self.emails)  # Pre-allocate to maintain order
 
-            result = detector.detect(email)
-            results.append(result)
+        # Create progress bar
+        with tqdm(total=len(self.emails), desc=f"  {detector.name}", unit="email", ncols=100) as pbar:
+            with ThreadPoolExecutor(max_workers=self.parallel_requests) as executor:
+                # Submit all tasks, storing email index with each future
+                future_to_index = {
+                    executor.submit(detector.detect, email): i
+                    for i, email in enumerate(self.emails)
+                }
+
+                # Process completed tasks as they finish
+                for future in as_completed(future_to_index):
+                    index = future_to_index[future]
+                    try:
+                        result = future.result()
+                        results[index] = result
+                    except Exception as e:
+                        # If detection fails, create an error result
+                        print(f"\n    Error processing email at index {index}: {e}")
+                        results[index] = DetectionResult(
+                            email_id=self.emails[index].id,
+                            has_pii=False,
+                            confidence=None,
+                            time_ms=0.0,
+                            cost_usd=0.0,
+                            input_tokens=0,
+                            output_tokens=0
+                        )
+                    finally:
+                        # Update progress bar
+                        pbar.update(1)
 
         print(f"  ✓ Completed {len(results)} detections")
 

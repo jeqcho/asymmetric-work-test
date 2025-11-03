@@ -45,6 +45,14 @@ N_SHOT_EXAMPLES = 5  # Number of examples for few-shot learning
 N_NO_PII_EXAMPLES = 3  # Number of negative examples
 N_WITH_PII_EXAMPLES = 2  # Number of positive examples
 
+# Parallel Processing Configuration
+PARALLEL_REQUESTS = 10  # Number of parallel API requests (default, can be overridden)
+
+# Exponential Backoff Configuration
+MAX_RETRIES = 3  # Maximum number of retry attempts for API calls
+INITIAL_BACKOFF_SECONDS = 1  # Initial wait time before first retry
+BACKOFF_MULTIPLIER = 2  # Multiplier for exponential backoff (wait_time = INITIAL_BACKOFF_SECONDS * (BACKOFF_MULTIPLIER ^ retry_number))
+
 # PII Types to detect (from task requirements)
 PII_TYPES = [
     "[full name]",

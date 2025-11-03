@@ -12,7 +12,10 @@ from src.config import (
     ANTHROPIC_API_KEY,
     HAIKU_MODEL,
     SONNET_MODEL,
-    RANDOM_SEED
+    RANDOM_SEED,
+    MAX_RETRIES,
+    INITIAL_BACKOFF_SECONDS,
+    BACKOFF_MULTIPLIER
 )
 
 
@@ -77,36 +80,52 @@ class ClaudeDetector(BaseDetector):
         else:
             prompt = build_zero_shot_prompt(email)
 
-        # Call Claude API
-        try:
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=10,  # We only need "YES" or "NO"
-                messages=[
-                    {"role": "user", "content": prompt}
-                ]
-            )
+        # Call Claude API with exponential backoff retry logic
+        has_pii = False
+        input_tokens = 0
+        output_tokens = 0
+        cost = 0.0
 
-            # Extract response
-            response_text = response.content[0].text.strip().upper()
+        for attempt in range(MAX_RETRIES + 1):
+            try:
+                response = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=10,  # We only need "YES" or "NO"
+                    messages=[
+                        {"role": "user", "content": prompt}
+                    ]
+                )
 
-            # Parse response (expecting "YES" or "NO")
-            has_pii = "YES" in response_text
+                # Extract response
+                response_text = response.content[0].text.strip().upper()
 
-            # Get token usage
-            input_tokens = response.usage.input_tokens
-            output_tokens = response.usage.output_tokens
+                # Parse response (expecting "YES" or "NO")
+                has_pii = "YES" in response_text
 
-            # Calculate cost
-            cost = self.cost_calculator(input_tokens, output_tokens)
+                # Get token usage
+                input_tokens = response.usage.input_tokens
+                output_tokens = response.usage.output_tokens
 
-        except Exception as e:
-            # If API call fails, return error result
-            print(f"Error calling Claude API for email {email.id}: {e}")
-            has_pii = False
-            input_tokens = 0
-            output_tokens = 0
-            cost = 0.0
+                # Calculate cost
+                cost = self.cost_calculator(input_tokens, output_tokens)
+
+                # Success - break out of retry loop
+                break
+
+            except Exception as e:
+                # If this is the last attempt, don't wait
+                if attempt < MAX_RETRIES:
+                    # Calculate exponential backoff wait time
+                    wait_time = INITIAL_BACKOFF_SECONDS * (BACKOFF_MULTIPLIER ** attempt)
+                    print(f"Error calling Claude API for email {email.id} (attempt {attempt + 1}/{MAX_RETRIES + 1}): {e}. Retrying in {wait_time:.1f}s...")
+                    time.sleep(wait_time)
+                else:
+                    # Final attempt failed
+                    print(f"Error calling Claude API for email {email.id} after {MAX_RETRIES + 1} attempts: {e}")
+                    has_pii = False
+                    input_tokens = 0
+                    output_tokens = 0
+                    cost = 0.0
 
         # Calculate elapsed time
         elapsed_ms = (time.time() - start_time) * 1000

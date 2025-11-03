@@ -32,7 +32,7 @@ IMPORTANT RULES:
 1. Focus ONLY on the message body for PII detection
 2. Ignore corporate/business information - we only care about PII
 3. [full name] ONLY counts if it appears WITH another PII element (email addresses don't count)
-4. Be conservative: only flag if you're confident it's genuine PII
+4. Flag if you have any suspicion it could be PII
 
 EMAIL TO ANALYZE:
 Subject: {email.subject}
@@ -105,7 +105,7 @@ IMPORTANT RULES:
 1. Focus ONLY on the message body for PII detection
 2. Ignore corporate/business information - we only care about PII
 3. [full name] ONLY counts if it appears WITH another PII element (email addresses don't count)
-4. Be conservative: only flag if you're confident it's genuine PII
+4. Flag if you have any suspicion it could be PII
 
 {examples_text}
 Now analyze this email:
